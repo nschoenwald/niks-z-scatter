@@ -1,0 +1,41 @@
+{
+	"niks-z-scatter": {
+		"sizeSnap": {
+			"title": "Size Snap"
+		},
+		"settings": {
+			"completeOverlap": {
+				"name": "Complete Overlap Only",
+				"hint": "Tokens will only be scattered when they overlap completely in all of their grid squares."
+			},
+			"ignoreDead": {
+				"name": "Ignore Special Cases",
+				"hint": "Dead or incapacitated tokens will not be snapped."
+			},
+			"ignoreMisaligned": {
+				"name": "Ignore Misaligned Tokens",
+				"hint": "Tokens that are deliberately placed off-grid will not be snapped."
+			},
+			"ignoreElevation": {
+				"name": "Ignore Token Elevation",
+				"hint": "Tokens at different elevations can collide and scatter together."
+			},
+			"collideDifferentSizes": {
+				"name": "Collide Different Token Sizes",
+				"hint": "Tokens with different dimensions can collide and scatter together."
+			},
+			"scatter": {
+				"name": "Scattering",
+				"hint": "How much the tokens will scatter around?"
+			},
+			"hideBtn": {
+				"name": "Hide Button",
+				"hint": "Whether to hide the size snap button from the token controls. (Requires Reload)"
+			},
+			"playersBtn": {
+				"name": "Show Button to Players",
+				"hint": "Whether to show the size snap button to players. (Requires Reload)"
+			}
+		}
+	}
+}
